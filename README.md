@@ -7,7 +7,8 @@
 ![Login](screenshots/<img width="1000" height="1400" alt="Login" src="https://github.com/user-attachments/assets/fe56634c-385c-464a-96da-c73f3f4db64e" />)
 
 ### Dashboard
-![Dashboard](screenshots/)
+![Dashboard](screenshots/<img width="1000" height="1400" alt="Dashboard" src="https://github.com/user-attachments/assets/f1d3fc7f-4dd0-4eec-a138-bf9ea49486b1" />
+)
 
 ### Add Expense
 ![Add Expense](screenshots/<img width="1000" height="1400" alt="Expenses" src="https://github.com/user-attachments/assets/560e483c-1926-44c2-90e8-3289797c7d8f" />
