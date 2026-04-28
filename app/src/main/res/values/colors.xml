@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#D4AF37</color>
+    <color name="colorPrimaryDark">#B8941E</color>
+    <color name="colorAccent">#D4AF37</color>
+    <color name="bgDark">#0D1117</color>
+    <color name="bgCard">#161B22</color>
+    <color name="bgCardLight">#1F2937</color>
+    <color name="textPrimary">#E8E0D4</color>
+    <color name="textSecondary">#9CA3AF</color>
+    <color name="gold">#D4AF37</color>
+    <color name="goldLight">#F5D77C</color>
+    <color name="red">#EF4444</color>
+    <color name="green">#34D399</color>
+    <color name="blue">#60A5FA</color>
+    <color name="borderColor">#2D3748</color>
+    <color name="white">#FFFFFF</color>
+</resources>

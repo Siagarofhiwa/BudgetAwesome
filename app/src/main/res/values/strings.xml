@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Budget Awesome</string>
+    <string name="login">Sign In</string>
+    <string name="register">Create Account</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="categories">Categories</string>
+    <string name="add_expense">Add Expense</string>
+    <string name="expenses">Expenses</string>
+    <string name="goals">Goals</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="no_expenses">No expenses in this period.</string>
+</resources>

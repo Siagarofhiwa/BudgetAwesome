@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgDark"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="32dp"
+        android:minHeight="600dp">
+
+        <!-- Logo -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="💰"
+            android:textSize="56sp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome Back"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="@color/gold"
+            android:layout_gravity="center"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TRACK · SAVE · GROW"
+            android:textSize="11sp"
+            android:letterSpacing="0.2"
+            android:textColor="@color/textSecondary"
+            android:layout_gravity="center"
+            android:layout_marginBottom="40dp" />
+
+        <!-- Card -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/bg_card"
+            android:padding="24dp">
+
+            <!-- Error message -->
+            <TextView
+                android:id="@+id/tvError"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#F87171"
+                android:textSize="13sp"
+                android:background="#1F0A0A"
+                android:padding="10dp"
+                android:layout_marginBottom="12dp"
+                android:visibility="gone" />
+
+            <TextView
+                style="@style/LabelText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="USERNAME" />
+
+            <EditText
+                android:id="@+id/etUsername"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@drawable/bg_input"
+                android:textColor="@color/textPrimary"
+                android:textColorHint="@color/textSecondary"
+                android:hint="Enter username"
+                android:paddingStart="14dp"
+                android:paddingEnd="14dp"
+                android:inputType="text"
+                android:layout_marginBottom="14dp" />
+
+            <TextView
+                style="@style/LabelText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PASSWORD" />
+
+            <EditText
+                android:id="@+id/etPassword"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@drawable/bg_input"
+                android:textColor="@color/textPrimary"
+                android:textColorHint="@color/textSecondary"
+                android:hint="Enter password"
+                android:paddingStart="14dp"
+                android:paddingEnd="14dp"
+                android:inputType="textPassword"
+                android:layout_marginBottom="20dp" />
+
+            <Button
+                android:id="@+id/btnLogin"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="SIGN IN"
+                android:textColor="@color/bgDark"
+                android:textStyle="bold"
+                android:background="@drawable/bg_gold_button"
+                android:layout_marginBottom="8dp" />
+
+            <Button
+                android:id="@+id/btnRegister"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="CREATE ACCOUNT"
+                android:textColor="@color/bgDark"
+                android:textStyle="bold"
+                android:background="@drawable/bg_gold_button"
+                android:visibility="gone"
+                android:layout_marginBottom="8dp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvToggle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New user? Create Account"
+            android:textColor="@color/gold"
+            android:textSize="13sp"
+            android:layout_gravity="center"
+            android:padding="12dp"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Default: admin / admin123"
+            android:textColor="@color/textSecondary"
+            android:textSize="11sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="4dp" />
+
+    </LinearLayout>
+</ScrollView>
