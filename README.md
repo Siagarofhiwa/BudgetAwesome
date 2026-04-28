@@ -1,4 +1,3 @@
-
 ## 🎥 Demo Video
 [Watch on YouTube](https://youtu.be/H8pPURyJa9c?si=YP2xLuHRTBMfJ1vY)
 
@@ -11,10 +10,15 @@
 ![Dashboard](screenshots/)
 
 ### Add Expense
-![Add Expense](screenshots/)
+![Add Expense](screenshots/<img width="1080" height="2400" alt="Expenses" src="https://github.com/user-attachments/assets/560e483c-1926-44c2-90e8-3289797c7d8f" />
+)
 
 ### Expense List
-![Expense List](screenshots/)
+![Expense List](screenshots/<img width="1080" height="2400" alt="ListExpenses" src="https://github.com/user-attachments/assets/8327765f-50b4-4a6e-8e47-b1fffe48c48b" />)
 
 ### Goals
-![Goals](screenshots/)
+![Goals](screenshots/<img width="1080" height="2400" alt="Goals" src="https://github.com/user-attachments/assets/21986f25-d88f-4389-9fdc-c3da0fb79a67" />
+)
+
+### Categories
+![Categories].(screenshot/<img width="1080" height="2400" alt="Categories" src="https://github.com/user-attachments/assets/c0d542fd-fd0e-47f3-a02a-d04b0471a4bc" />)
