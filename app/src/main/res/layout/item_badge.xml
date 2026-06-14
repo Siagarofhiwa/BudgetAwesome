@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/bg_card"
+    android:padding="16dp"
+    android:gravity="center"
+    android:layout_margin="6dp">
+
+    <!-- Badge emoji icon -->
+    <TextView
+        android:id="@+id/tvBadgeIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Badge title -->
+    <TextView
+        android:id="@+id/tvBadgeTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="@color/gold"
+        android:gravity="center"
+        android:layout_marginBottom="4dp" />
+
+    <!-- Badge description -->
+    <TextView
+        android:id="@+id/tvBadgeDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="11sp"
+        android:textColor="@color/textSecondary"
+        android:gravity="center"
+        android:layout_marginBottom="6dp" />
+
+    <!-- Date earned -->
+    <TextView
+        android:id="@+id/tvBadgeDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"
+        android:textColor="#4B5563"
+        android:gravity="center" />
+
+</LinearLayout>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bgDark"
+    android:padding="16dp">
+
+    <!-- Header -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🏆 Your Badges"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/gold"
+        android:layout_marginBottom="6dp" />
+
+    <TextView
+        android:id="@+id/tvBadgeCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/textSecondary"
+        android:textSize="13sp"
+        android:layout_marginBottom="14dp" />
+
+    <!-- Goal Progress Card -->
+    <LinearLayout
+        android:id="@+id/layoutProgress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/bg_card"
+        android:padding="16dp"
+        android:layout_marginBottom="14dp"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="📈 Monthly Budget Progress"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="@color/textPrimary"
+            android:layout_marginBottom="10dp" />
+
+        <TextView
+            android:id="@+id/tvSpentThisMonth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/gold"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <ProgressBar
+            android:id="@+id/progressGoal"
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="14dp"
+            android:max="100"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/tvProgressLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textPrimary"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+    <!-- No badges text -->
+    <TextView
+        android:id="@+id/tvNoBadges"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🎯 No badges yet!\nStart logging expenses to earn badges."
+        android:textColor="@color/textSecondary"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:padding="24dp"
+        android:background="@drawable/bg_card"
+        android:layout_marginBottom="12dp"
+        android:visibility="gone" />
+
+    <!-- Badges grid -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvBadges"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+</LinearLayout>
