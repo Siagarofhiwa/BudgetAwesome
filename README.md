@@ -62,13 +62,16 @@ Located in the **Search** tab. Search all expenses in real time by description o
 ## 📸 Part 3 Screenshots
 
 ### Graph Screen
-![Graph](screenshot_graph.png)
+![Graph](<img width="1080" height="2400" alt="graph" src="https://github.com/user-attachments/assets/7576fac2-6276-46f6-8c99-84e6e53030be" />
+)
 
 ### Badges Screen
-![Badges](screenshot_badges.png)
+![Badges](<img width="1080" height="2400" alt="search tabs" src="https://github.com/user-attachments/assets/a45e728f-4959-4324-898f-e463a9463f9b" />
+)
 
 ### Tips Screen
-![Tips](screenshot_tips.png)
+![Tips](<img width="1080" height="2400" alt="tips" src="https://github.com/user-attachments/assets/5425f725-3395-4b67-84be-5be765c368fe" />
+)
 
 ### Search Screen
 ![Search](screenshot_search.png)
