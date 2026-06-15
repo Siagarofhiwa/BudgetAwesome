@@ -23,3 +23,52 @@
 
 ### Categories
 ![Categories].(screenshot/<img width="1000" height="1400" alt="Categories" src="https://github.com/user-attachments/assets/c0d542fd-fd0e-47f3-a02a-d04b0471a4bc" />)
+
+
+---
+
+## 🆕 Part 3 — New Features Added
+
+### 📊 Graph
+Bar chart showing total spending per category for a user-selectable period, with dashed lines showing your minimum and maximum monthly goals.
+
+### 📈 Visual Goal Progress
+The Badges screen shows a colour-coded progress bar (green = on track, orange = nearly at limit, red = over budget) comparing your spending to your maximum goal.
+
+### 🏆 Gamification - Badges
+Earn badges for good budgeting habits:
+- 🏅 First Steps - Log your first expense
+- 🌟 Expense Explorer - Log 5 expenses
+- 💎 Power Tracker - Log 10 expenses
+- 🎯 Goal Setter - Set a budget goal
+- 💚 Budget Hero - Stay within max budget for the month
+- 🏆 Savings Champion - Spend under your minimum goal
+- 📸 Photogenic - Attach a photo to an expense
+- 🗂️ Organised - Create 3 or more categories
+
+### 💡 Own Feature 1 - Smart Budget Tips
+Located in the **Tips** tab. Analyses your spending data from RoomDB and generates personalised financial tips in real time based on your budget status, top spending category, logging consistency, and general financial best practices.
+
+### 🔍 Own Feature 2 - Search Expenses
+Located in the **Search** tab. Search all expenses in real time by description or category name. Results update with each keystroke and show a running total of matching expenses.
+
+---
+
+## 🎥 Part 3 Demo Video
+[Watch on YouTube](https://youtu.be/1Xebj1OAVO8))
+
+---
+
+## 📸 Part 3 Screenshots
+
+### Graph Screen
+![Graph](screenshot_graph.png)
+
+### Badges Screen
+![Badges](screenshot_badges.png)
+
+### Tips Screen
+![Tips](screenshot_tips.png)
+
+### Search Screen
+![Search](screenshot_search.png)
